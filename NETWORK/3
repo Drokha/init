@@ -1,0 +1,1 @@
+ifconfig en1 | sed -e '1d' | sed -e '2,4d' | cut -c 2-

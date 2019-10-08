@@ -1,0 +1,3 @@
+En session graphique : se log avec id et mdp comme tout autre utilisateur
+
+en ssh : ssh<id>@<ip> et mdp

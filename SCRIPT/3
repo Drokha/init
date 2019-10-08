@@ -1,0 +1,8 @@
+#!/bin/bash
+
+log=$(apt-get -y upgrade)
+echo $log >  /var/log/update_script.log
+echo $log
+log=$(apt-get -y update)
+echo $log >  /var/log/update_script.log
+echo $log
